@@ -1,14 +1,14 @@
 {
   "name": "garph-field-resolver-demo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
   "dependencies": {
     "@caldwell619/data-loader": "^0.0.4",
     "garph": "^0.4.3",
     "graphql": "^16.6.0",
-    "graphql-yoga": "^3.7.3",
-    "http": "^0.0.1-security"
+    "graphql-yoga": "^3.7.3"
   },
   "devDependencies": {
     "@types/node": "^18.15.7",
